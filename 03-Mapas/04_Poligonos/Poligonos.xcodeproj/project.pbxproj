@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034EBA7C185460DE00038ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA7B185460DE00038ECF /* Foundation.framework */; };
+		034EBA7E185460DE00038ECF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA7D185460DE00038ECF /* CoreGraphics.framework */; };
+		034EBA80185460DE00038ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA7F185460DE00038ECF /* UIKit.framework */; };
+		034EBA86185460DE00038ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA84185460DE00038ECF /* InfoPlist.strings */; };
+		034EBA88185460DE00038ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA87185460DE00038ECF /* main.m */; };
+		034EBA8C185460DE00038ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA8B185460DE00038ECF /* AppDelegate.m */; };
+		034EBA8F185460DE00038ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA8D185460DE00038ECF /* Main.storyboard */; };
+		034EBA92185460DE00038ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA91185460DE00038ECF /* ViewController.m */; };
+		034EBA94185460DE00038ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA93185460DE00038ECF /* Images.xcassets */; };
+		034EBA9B185460DE00038ECF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA9A185460DE00038ECF /* XCTest.framework */; };
+		034EBA9C185460DE00038ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA7B185460DE00038ECF /* Foundation.framework */; };
+		034EBA9D185460DE00038ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA7F185460DE00038ECF /* UIKit.framework */; };
+		034EBAA5185460DE00038ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034EBAA3185460DE00038ECF /* InfoPlist.strings */; };
+		034EBAA7185460DE00038ECF /* PoligonosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBAA6185460DE00038ECF /* PoligonosTests.m */; };
+		034EBB37185478B800038ECF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBB36185478B800038ECF /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034EBA9E185460DE00038ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034EBA70185460DE00038ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034EBA77185460DE00038ECF;
+			remoteInfo = Poligonos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034EBA78185460DE00038ECF /* Poligonos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poligonos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034EBA7B185460DE00038ECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034EBA7D185460DE00038ECF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		034EBA7F185460DE00038ECF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		034EBA83185460DE00038ECF /* Poligonos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poligonos-Info.plist"; sourceTree = "<group>"; };
+		034EBA85185460DE00038ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034EBA87185460DE00038ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		034EBA89185460DE00038ECF /* Poligonos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poligonos-Prefix.pch"; sourceTree = "<group>"; };
+		034EBA8A185460DE00038ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		034EBA8B185460DE00038ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		034EBA8E185460DE00038ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034EBA90185460DE00038ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		034EBA91185460DE00038ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		034EBA93185460DE00038ECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		034EBA99185460DE00038ECF /* PoligonosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoligonosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034EBA9A185460DE00038ECF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		034EBAA2185460DE00038ECF /* PoligonosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoligonosTests-Info.plist"; sourceTree = "<group>"; };
+		034EBAA4185460DE00038ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034EBAA6185460DE00038ECF /* PoligonosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoligonosTests.m; sourceTree = "<group>"; };
+		034EBB36185478B800038ECF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034EBA75185460DE00038ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBB37185478B800038ECF /* MapKit.framework in Frameworks */,
+				034EBA7E185460DE00038ECF /* CoreGraphics.framework in Frameworks */,
+				034EBA80185460DE00038ECF /* UIKit.framework in Frameworks */,
+				034EBA7C185460DE00038ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034EBA96185460DE00038ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA9B185460DE00038ECF /* XCTest.framework in Frameworks */,
+				034EBA9D185460DE00038ECF /* UIKit.framework in Frameworks */,
+				034EBA9C185460DE00038ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034EBA6F185460DE00038ECF = {
+			isa = PBXGroup;
+			children = (
+				034EBA81185460DE00038ECF /* Poligonos */,
+				034EBAA0185460DE00038ECF /* PoligonosTests */,
+				034EBA7A185460DE00038ECF /* Frameworks */,
+				034EBA79185460DE00038ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034EBA79185460DE00038ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA78185460DE00038ECF /* Poligonos.app */,
+				034EBA99185460DE00038ECF /* PoligonosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034EBA7A185460DE00038ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034EBB36185478B800038ECF /* MapKit.framework */,
+				034EBA7B185460DE00038ECF /* Foundation.framework */,
+				034EBA7D185460DE00038ECF /* CoreGraphics.framework */,
+				034EBA7F185460DE00038ECF /* UIKit.framework */,
+				034EBA9A185460DE00038ECF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034EBA81185460DE00038ECF /* Poligonos */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA8A185460DE00038ECF /* AppDelegate.h */,
+				034EBA8B185460DE00038ECF /* AppDelegate.m */,
+				034EBA8D185460DE00038ECF /* Main.storyboard */,
+				034EBA90185460DE00038ECF /* ViewController.h */,
+				034EBA91185460DE00038ECF /* ViewController.m */,
+				034EBA93185460DE00038ECF /* Images.xcassets */,
+				034EBA82185460DE00038ECF /* Supporting Files */,
+			);
+			path = Poligonos;
+			sourceTree = "<group>";
+		};
+		034EBA82185460DE00038ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA83185460DE00038ECF /* Poligonos-Info.plist */,
+				034EBA84185460DE00038ECF /* InfoPlist.strings */,
+				034EBA87185460DE00038ECF /* main.m */,
+				034EBA89185460DE00038ECF /* Poligonos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		034EBAA0185460DE00038ECF /* PoligonosTests */ = {
+			isa = PBXGroup;
+			children = (
+				034EBAA6185460DE00038ECF /* PoligonosTests.m */,
+				034EBAA1185460DE00038ECF /* Supporting Files */,
+			);
+			path = PoligonosTests;
+			sourceTree = "<group>";
+		};
+		034EBAA1185460DE00038ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034EBAA2185460DE00038ECF /* PoligonosTests-Info.plist */,
+				034EBAA3185460DE00038ECF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034EBA77185460DE00038ECF /* Poligonos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034EBAAA185460DE00038ECF /* Build configuration list for PBXNativeTarget "Poligonos" */;
+			buildPhases = (
+				034EBA74185460DE00038ECF /* Sources */,
+				034EBA75185460DE00038ECF /* Frameworks */,
+				034EBA76185460DE00038ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poligonos;
+			productName = Poligonos;
+			productReference = 034EBA78185460DE00038ECF /* Poligonos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034EBA98185460DE00038ECF /* PoligonosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034EBAAD185460DE00038ECF /* Build configuration list for PBXNativeTarget "PoligonosTests" */;
+			buildPhases = (
+				034EBA95185460DE00038ECF /* Sources */,
+				034EBA96185460DE00038ECF /* Frameworks */,
+				034EBA97185460DE00038ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034EBA9F185460DE00038ECF /* PBXTargetDependency */,
+			);
+			name = PoligonosTests;
+			productName = PoligonosTests;
+			productReference = 034EBA99185460DE00038ECF /* PoligonosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034EBA70185460DE00038ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UAB;
+				TargetAttributes = {
+					034EBA77185460DE00038ECF = {
+						DevelopmentTeam = YCB5NSKCKB;
+					};
+					034EBA98185460DE00038ECF = {
+						TestTargetID = 034EBA77185460DE00038ECF;
+					};
+				};
+			};
+			buildConfigurationList = 034EBA73185460DE00038ECF /* Build configuration list for PBXProject "Poligonos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034EBA6F185460DE00038ECF;
+			productRefGroup = 034EBA79185460DE00038ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034EBA77185460DE00038ECF /* Poligonos */,
+				034EBA98185460DE00038ECF /* PoligonosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034EBA76185460DE00038ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA94185460DE00038ECF /* Images.xcassets in Resources */,
+				034EBA86185460DE00038ECF /* InfoPlist.strings in Resources */,
+				034EBA8F185460DE00038ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034EBA97185460DE00038ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBAA5185460DE00038ECF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034EBA74185460DE00038ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA92185460DE00038ECF /* ViewController.m in Sources */,
+				034EBA8C185460DE00038ECF /* AppDelegate.m in Sources */,
+				034EBA88185460DE00038ECF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034EBA95185460DE00038ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBAA7185460DE00038ECF /* PoligonosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034EBA9F185460DE00038ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034EBA77185460DE00038ECF /* Poligonos */;
+			targetProxy = 034EBA9E185460DE00038ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		034EBA84185460DE00038ECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034EBA85185460DE00038ECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		034EBA8D185460DE00038ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034EBA8E185460DE00038ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034EBAA3185460DE00038ECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034EBAA4185460DE00038ECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034EBAA8185460DE00038ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		034EBAA9185460DE00038ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034EBAAB185460DE00038ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YCB5NSKCKB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poligonos/Poligonos-Prefix.pch";
+				INFOPLIST_FILE = "Poligonos/Poligonos-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		034EBAAC185460DE00038ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YCB5NSKCKB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poligonos/Poligonos-Prefix.pch";
+				INFOPLIST_FILE = "Poligonos/Poligonos-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		034EBAAE185460DE00038ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poligonos.app/Poligonos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poligonos/Poligonos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PoligonosTests/PoligonosTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		034EBAAF185460DE00038ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poligonos.app/Poligonos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poligonos/Poligonos-Prefix.pch";
+				INFOPLIST_FILE = "PoligonosTests/PoligonosTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034EBA73185460DE00038ECF /* Build configuration list for PBXProject "Poligonos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034EBAA8185460DE00038ECF /* Debug */,
+				034EBAA9185460DE00038ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034EBAAA185460DE00038ECF /* Build configuration list for PBXNativeTarget "Poligonos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034EBAAB185460DE00038ECF /* Debug */,
+				034EBAAC185460DE00038ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034EBAAD185460DE00038ECF /* Build configuration list for PBXNativeTarget "PoligonosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034EBAAE185460DE00038ECF /* Debug */,
+				034EBAAF185460DE00038ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034EBA70185460DE00038ECF /* Project object */;
+}

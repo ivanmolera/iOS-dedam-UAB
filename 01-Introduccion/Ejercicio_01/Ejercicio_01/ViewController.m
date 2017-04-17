@@ -28,7 +28,7 @@
                                                   message:[NSString stringWithFormat:@"Posicion %ld: %@", (long)_position, [_array objectAtIndex:_position]]
                                            preferredStyle:UIAlertControllerStyleActionSheet];
     
-    UIAlertAction* siguiente = [UIAlertAction
+    UIAlertAction *siguiente = [UIAlertAction
                                 actionWithTitle:@"Siguiente"
                                 style:UIAlertActionStyleDefault
                                 handler:^(UIAlertAction * action)
@@ -39,7 +39,7 @@
     
     [_alerta addAction:siguiente];
     
-    UIAlertAction* anterior = [UIAlertAction
+    UIAlertAction *anterior = [UIAlertAction
                                actionWithTitle:@"Anterior"
                                style:UIAlertActionStyleDefault
                                handler:^(UIAlertAction * action)
