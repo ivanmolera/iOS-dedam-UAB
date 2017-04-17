@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034EB9FA1853892D00038ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EB9F91853892D00038ECF /* Foundation.framework */; };
+		034EB9FC1853892D00038ECF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EB9FB1853892D00038ECF /* CoreGraphics.framework */; };
+		034EB9FE1853892D00038ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EB9FD1853892D00038ECF /* UIKit.framework */; };
+		034EBA041853892D00038ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA021853892D00038ECF /* InfoPlist.strings */; };
+		034EBA061853892D00038ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA051853892D00038ECF /* main.m */; };
+		034EBA0A1853892D00038ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA091853892D00038ECF /* AppDelegate.m */; };
+		034EBA0D1853892D00038ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA0B1853892D00038ECF /* Main.storyboard */; };
+		034EBA101853892D00038ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA0F1853892D00038ECF /* ViewController.m */; };
+		034EBA121853892D00038ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA111853892D00038ECF /* Images.xcassets */; };
+		034EBA191853892D00038ECF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBA181853892D00038ECF /* XCTest.framework */; };
+		034EBA1A1853892D00038ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EB9F91853892D00038ECF /* Foundation.framework */; };
+		034EBA1B1853892D00038ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EB9FD1853892D00038ECF /* UIKit.framework */; };
+		034EBA231853892D00038ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034EBA211853892D00038ECF /* InfoPlist.strings */; };
+		034EBA251853892D00038ECF /* ParallaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034EBA241853892D00038ECF /* ParallaxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034EBA1C1853892D00038ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034EB9EE1853892D00038ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034EB9F51853892D00038ECF;
+			remoteInfo = Parallax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034EB9F61853892D00038ECF /* Parallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034EB9F91853892D00038ECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034EB9FB1853892D00038ECF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		034EB9FD1853892D00038ECF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		034EBA011853892D00038ECF /* Parallax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parallax-Info.plist"; sourceTree = "<group>"; };
+		034EBA031853892D00038ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034EBA051853892D00038ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		034EBA071853892D00038ECF /* Parallax-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parallax-Prefix.pch"; sourceTree = "<group>"; };
+		034EBA081853892D00038ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		034EBA091853892D00038ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		034EBA0C1853892D00038ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034EBA0E1853892D00038ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		034EBA0F1853892D00038ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		034EBA111853892D00038ECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		034EBA171853892D00038ECF /* ParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034EBA181853892D00038ECF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		034EBA201853892D00038ECF /* ParallaxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParallaxTests-Info.plist"; sourceTree = "<group>"; };
+		034EBA221853892D00038ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034EBA241853892D00038ECF /* ParallaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034EB9F31853892D00038ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EB9FC1853892D00038ECF /* CoreGraphics.framework in Frameworks */,
+				034EB9FE1853892D00038ECF /* UIKit.framework in Frameworks */,
+				034EB9FA1853892D00038ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034EBA141853892D00038ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA191853892D00038ECF /* XCTest.framework in Frameworks */,
+				034EBA1B1853892D00038ECF /* UIKit.framework in Frameworks */,
+				034EBA1A1853892D00038ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034EB9ED1853892D00038ECF = {
+			isa = PBXGroup;
+			children = (
+				034EB9FF1853892D00038ECF /* Parallax */,
+				034EBA1E1853892D00038ECF /* ParallaxTests */,
+				034EB9F81853892D00038ECF /* Frameworks */,
+				034EB9F71853892D00038ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034EB9F71853892D00038ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034EB9F61853892D00038ECF /* Parallax.app */,
+				034EBA171853892D00038ECF /* ParallaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034EB9F81853892D00038ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034EB9F91853892D00038ECF /* Foundation.framework */,
+				034EB9FB1853892D00038ECF /* CoreGraphics.framework */,
+				034EB9FD1853892D00038ECF /* UIKit.framework */,
+				034EBA181853892D00038ECF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034EB9FF1853892D00038ECF /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA081853892D00038ECF /* AppDelegate.h */,
+				034EBA091853892D00038ECF /* AppDelegate.m */,
+				034EBA0B1853892D00038ECF /* Main.storyboard */,
+				034EBA0E1853892D00038ECF /* ViewController.h */,
+				034EBA0F1853892D00038ECF /* ViewController.m */,
+				034EBA111853892D00038ECF /* Images.xcassets */,
+				034EBA001853892D00038ECF /* Supporting Files */,
+			);
+			path = Parallax;
+			sourceTree = "<group>";
+		};
+		034EBA001853892D00038ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA011853892D00038ECF /* Parallax-Info.plist */,
+				034EBA021853892D00038ECF /* InfoPlist.strings */,
+				034EBA051853892D00038ECF /* main.m */,
+				034EBA071853892D00038ECF /* Parallax-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		034EBA1E1853892D00038ECF /* ParallaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA241853892D00038ECF /* ParallaxTests.m */,
+				034EBA1F1853892D00038ECF /* Supporting Files */,
+			);
+			path = ParallaxTests;
+			sourceTree = "<group>";
+		};
+		034EBA1F1853892D00038ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034EBA201853892D00038ECF /* ParallaxTests-Info.plist */,
+				034EBA211853892D00038ECF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034EB9F51853892D00038ECF /* Parallax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034EBA281853892D00038ECF /* Build configuration list for PBXNativeTarget "Parallax" */;
+			buildPhases = (
+				034EB9F21853892D00038ECF /* Sources */,
+				034EB9F31853892D00038ECF /* Frameworks */,
+				034EB9F41853892D00038ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parallax;
+			productName = Parallax;
+			productReference = 034EB9F61853892D00038ECF /* Parallax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034EBA161853892D00038ECF /* ParallaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034EBA2B1853892D00038ECF /* Build configuration list for PBXNativeTarget "ParallaxTests" */;
+			buildPhases = (
+				034EBA131853892D00038ECF /* Sources */,
+				034EBA141853892D00038ECF /* Frameworks */,
+				034EBA151853892D00038ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034EBA1D1853892D00038ECF /* PBXTargetDependency */,
+			);
+			name = ParallaxTests;
+			productName = ParallaxTests;
+			productReference = 034EBA171853892D00038ECF /* ParallaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034EB9EE1853892D00038ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UAB;
+				TargetAttributes = {
+					034EB9F51853892D00038ECF = {
+						DevelopmentTeam = YCB5NSKCKB;
+					};
+					034EBA161853892D00038ECF = {
+						TestTargetID = 034EB9F51853892D00038ECF;
+					};
+				};
+			};
+			buildConfigurationList = 034EB9F11853892D00038ECF /* Build configuration list for PBXProject "Parallax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034EB9ED1853892D00038ECF;
+			productRefGroup = 034EB9F71853892D00038ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034EB9F51853892D00038ECF /* Parallax */,
+				034EBA161853892D00038ECF /* ParallaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034EB9F41853892D00038ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA121853892D00038ECF /* Images.xcassets in Resources */,
+				034EBA041853892D00038ECF /* InfoPlist.strings in Resources */,
+				034EBA0D1853892D00038ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034EBA151853892D00038ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA231853892D00038ECF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034EB9F21853892D00038ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA101853892D00038ECF /* ViewController.m in Sources */,
+				034EBA0A1853892D00038ECF /* AppDelegate.m in Sources */,
+				034EBA061853892D00038ECF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034EBA131853892D00038ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034EBA251853892D00038ECF /* ParallaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034EBA1D1853892D00038ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034EB9F51853892D00038ECF /* Parallax */;
+			targetProxy = 034EBA1C1853892D00038ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		034EBA021853892D00038ECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034EBA031853892D00038ECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		034EBA0B1853892D00038ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034EBA0C1853892D00038ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034EBA211853892D00038ECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034EBA221853892D00038ECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034EBA261853892D00038ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		034EBA271853892D00038ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034EBA291853892D00038ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YCB5NSKCKB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parallax/Parallax-Prefix.pch";
+				INFOPLIST_FILE = "Parallax/Parallax-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		034EBA2A1853892D00038ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YCB5NSKCKB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parallax/Parallax-Prefix.pch";
+				INFOPLIST_FILE = "Parallax/Parallax-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		034EBA2C1853892D00038ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Parallax.app/Parallax";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parallax/Parallax-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ParallaxTests/ParallaxTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		034EBA2D1853892D00038ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Parallax.app/Parallax";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parallax/Parallax-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxTests/ParallaxTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034EB9F11853892D00038ECF /* Build configuration list for PBXProject "Parallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034EBA261853892D00038ECF /* Debug */,
+				034EBA271853892D00038ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034EBA281853892D00038ECF /* Build configuration list for PBXNativeTarget "Parallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034EBA291853892D00038ECF /* Debug */,
+				034EBA2A1853892D00038ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034EBA2B1853892D00038ECF /* Build configuration list for PBXNativeTarget "ParallaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034EBA2C1853892D00038ECF /* Debug */,
+				034EBA2D1853892D00038ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034EB9EE1853892D00038ECF /* Project object */;
+}

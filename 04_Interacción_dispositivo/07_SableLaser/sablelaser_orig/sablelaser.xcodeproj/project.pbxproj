@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45285AC156E85B900999791 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45285AB156E85B900999791 /* AVFoundation.framework */; };
+		C45285AF156E85C700999791 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45285AE156E85C700999791 /* AudioToolbox.framework */; };
+		C45285B2156E8F8000999791 /* SaberSoundsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C45285B1156E8F8000999791 /* SaberSoundsModel.m */; };
+		C49B5FA21570CDBC00F69257 /* SaberOnView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49B5FA11570CDBC00F69257 /* SaberOnView.m */; };
+		C49DCE9F156FC40200C0BB82 /* SaberOnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DCE9E156FC40200C0BB82 /* SaberOnViewController.m */; };
+		C4DCC087156C022D00C827A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DCC086156C022D00C827A2 /* UIKit.framework */; };
+		C4DCC089156C022D00C827A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DCC088156C022D00C827A2 /* Foundation.framework */; };
+		C4DCC08B156C022D00C827A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DCC08A156C022D00C827A2 /* CoreGraphics.framework */; };
+		C4DCC091156C022D00C827A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4DCC08F156C022D00C827A2 /* InfoPlist.strings */; };
+		C4DCC093156C022D00C827A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DCC092156C022D00C827A2 /* main.m */; };
+		C4DCC097156C022D00C827A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DCC096156C022D00C827A2 /* AppDelegate.m */; };
+		C4DCC09A156C022D00C827A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DCC098156C022D00C827A2 /* MainStoryboard.storyboard */; };
+		C4DCC09D156C022D00C827A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DCC09C156C022D00C827A2 /* ViewController.m */; };
+		C4EB1001156D3EB30000B839 /* sable.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB0FFD156D3EB30000B839 /* sable.png */; };
+		C4EB1002156D3EB30000B839 /* fdo_Saber.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB0FFE156D3EB30000B839 /* fdo_Saber.png */; };
+		C4EB1003156D3EB30000B839 /* sable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB0FFF156D3EB30000B839 /* sable@2x.png */; };
+		C4EB1004156D3EB30000B839 /* fdo_Saber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1000156D3EB30000B839 /* fdo_Saber@2x.png */; };
+		C4EB1021156D567D0000B839 /* espadazo1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1013156D567D0000B839 /* espadazo1.wav */; };
+		C4EB1022156D567D0000B839 /* espadazo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1014156D567D0000B839 /* espadazo2.wav */; };
+		C4EB1023156D567D0000B839 /* espadazo3.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1015156D567D0000B839 /* espadazo3.wav */; };
+		C4EB1024156D567D0000B839 /* ltsaberhit15.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1016156D567D0000B839 /* ltsaberhit15.wav */; };
+		C4EB1025156D567D0000B839 /* ltsaberoff01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1017156D567D0000B839 /* ltsaberoff01.wav */; };
+		C4EB1026156D567D0000B839 /* ltsaberon01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1018156D567D0000B839 /* ltsaberon01.wav */; };
+		C4EB1027156D567D0000B839 /* sabhit1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1019156D567D0000B839 /* sabhit1.WAV */; };
+		C4EB1028156D567D0000B839 /* sabhit2.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C4EB101A156D567D0000B839 /* sabhit2.WAV */; };
+		C4EB1029156D567D0000B839 /* sabhit3.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C4EB101B156D567D0000B839 /* sabhit3.WAV */; };
+		C4EB102A156D567D0000B839 /* sabramb1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB101C156D567D0000B839 /* sabramb1.wav */; };
+		C4EB102B156D567D0000B839 /* sabrswg1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB101D156D567D0000B839 /* sabrswg1.wav */; };
+		C4EB102C156D567D0000B839 /* sabrswg2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4EB101E156D567D0000B839 /* sabrswg2.wav */; };
+		C4EB102D156D567D0000B839 /* sabrswg4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4EB101F156D567D0000B839 /* sabrswg4.mp3 */; };
+		C4EB102E156D567D0000B839 /* sabrswg6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4EB1020156D567D0000B839 /* sabrswg6.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C45285AB156E85B900999791 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C45285AE156E85C700999791 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C45285B0156E8F8000999791 /* SaberSoundsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaberSoundsModel.h; sourceTree = "<group>"; };
+		C45285B1156E8F8000999791 /* SaberSoundsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaberSoundsModel.m; sourceTree = "<group>"; };
+		C49B5FA01570CDBC00F69257 /* SaberOnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaberOnView.h; path = ../SaberOnView.h; sourceTree = "<group>"; };
+		C49B5FA11570CDBC00F69257 /* SaberOnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaberOnView.m; path = ../SaberOnView.m; sourceTree = "<group>"; };
+		C49DCE9D156FC40200C0BB82 /* SaberOnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaberOnViewController.h; path = ../SaberOnViewController.h; sourceTree = "<group>"; };
+		C49DCE9E156FC40200C0BB82 /* SaberOnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaberOnViewController.m; path = ../SaberOnViewController.m; sourceTree = "<group>"; };
+		C4DCC082156C022D00C827A2 /* sablelaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sablelaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DCC086156C022D00C827A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4DCC088156C022D00C827A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4DCC08A156C022D00C827A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4DCC08E156C022D00C827A2 /* sablelaser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sablelaser-Info.plist"; sourceTree = "<group>"; };
+		C4DCC090156C022D00C827A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4DCC092156C022D00C827A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4DCC094156C022D00C827A2 /* sablelaser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sablelaser-Prefix.pch"; sourceTree = "<group>"; };
+		C4DCC095156C022D00C827A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4DCC096156C022D00C827A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4DCC099156C022D00C827A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C4DCC09B156C022D00C827A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4DCC09C156C022D00C827A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4EB0FFD156D3EB30000B839 /* sable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sable.png; sourceTree = "<group>"; };
+		C4EB0FFE156D3EB30000B839 /* fdo_Saber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fdo_Saber.png; sourceTree = "<group>"; };
+		C4EB0FFF156D3EB30000B839 /* sable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sable@2x.png"; sourceTree = "<group>"; };
+		C4EB1000156D3EB30000B839 /* fdo_Saber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fdo_Saber@2x.png"; sourceTree = "<group>"; };
+		C4EB1013156D567D0000B839 /* espadazo1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = espadazo1.wav; sourceTree = "<group>"; };
+		C4EB1014156D567D0000B839 /* espadazo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = espadazo2.wav; sourceTree = "<group>"; };
+		C4EB1015156D567D0000B839 /* espadazo3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = espadazo3.wav; sourceTree = "<group>"; };
+		C4EB1016156D567D0000B839 /* ltsaberhit15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ltsaberhit15.wav; sourceTree = "<group>"; };
+		C4EB1017156D567D0000B839 /* ltsaberoff01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ltsaberoff01.wav; sourceTree = "<group>"; };
+		C4EB1018156D567D0000B839 /* ltsaberon01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ltsaberon01.wav; sourceTree = "<group>"; };
+		C4EB1019156D567D0000B839 /* sabhit1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sabhit1.WAV; sourceTree = "<group>"; };
+		C4EB101A156D567D0000B839 /* sabhit2.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sabhit2.WAV; sourceTree = "<group>"; };
+		C4EB101B156D567D0000B839 /* sabhit3.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sabhit3.WAV; sourceTree = "<group>"; };
+		C4EB101C156D567D0000B839 /* sabramb1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sabramb1.wav; sourceTree = "<group>"; };
+		C4EB101D156D567D0000B839 /* sabrswg1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sabrswg1.wav; sourceTree = "<group>"; };
+		C4EB101E156D567D0000B839 /* sabrswg2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sabrswg2.wav; sourceTree = "<group>"; };
+		C4EB101F156D567D0000B839 /* sabrswg4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sabrswg4.mp3; sourceTree = "<group>"; };
+		C4EB1020156D567D0000B839 /* sabrswg6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sabrswg6.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DCC07F156C022D00C827A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45285AF156E85C700999791 /* AudioToolbox.framework in Frameworks */,
+				C45285AC156E85B900999791 /* AVFoundation.framework in Frameworks */,
+				C4DCC087156C022D00C827A2 /* UIKit.framework in Frameworks */,
+				C4DCC089156C022D00C827A2 /* Foundation.framework in Frameworks */,
+				C4DCC08B156C022D00C827A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4A05D331570CE3400C63037 /* vistas */ = {
+			isa = PBXGroup;
+			children = (
+				C49B5FA01570CDBC00F69257 /* SaberOnView.h */,
+				C49B5FA11570CDBC00F69257 /* SaberOnView.m */,
+			);
+			name = vistas;
+			sourceTree = "<group>";
+		};
+		C4A05D341570CE5600C63037 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				C45285B0156E8F8000999791 /* SaberSoundsModel.h */,
+				C45285B1156E8F8000999791 /* SaberSoundsModel.m */,
+			);
+			name = modelos;
+			sourceTree = "<group>";
+		};
+		C4DCC077156C022C00C827A2 = {
+			isa = PBXGroup;
+			children = (
+				C4DCC08C156C022D00C827A2 /* sablelaser */,
+				C4DCC085156C022D00C827A2 /* Frameworks */,
+				C4DCC083156C022D00C827A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DCC083156C022D00C827A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DCC082156C022D00C827A2 /* sablelaser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DCC085156C022D00C827A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45285AE156E85C700999791 /* AudioToolbox.framework */,
+				C45285AB156E85B900999791 /* AVFoundation.framework */,
+				C4DCC086156C022D00C827A2 /* UIKit.framework */,
+				C4DCC088156C022D00C827A2 /* Foundation.framework */,
+				C4DCC08A156C022D00C827A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4DCC08C156C022D00C827A2 /* sablelaser */ = {
+			isa = PBXGroup;
+			children = (
+				C4A05D341570CE5600C63037 /* modelos */,
+				C4EB1011156D56680000B839 /* sonidos */,
+				C4EB0FFB156D3E960000B839 /* imagenes */,
+				C4A05D331570CE3400C63037 /* vistas */,
+				C4DCC095156C022D00C827A2 /* AppDelegate.h */,
+				C4DCC096156C022D00C827A2 /* AppDelegate.m */,
+				C4DCC098156C022D00C827A2 /* MainStoryboard.storyboard */,
+				C4DCC09B156C022D00C827A2 /* ViewController.h */,
+				C4DCC09C156C022D00C827A2 /* ViewController.m */,
+				C49DCE9D156FC40200C0BB82 /* SaberOnViewController.h */,
+				C49DCE9E156FC40200C0BB82 /* SaberOnViewController.m */,
+				C4DCC08D156C022D00C827A2 /* Supporting Files */,
+			);
+			path = sablelaser;
+			sourceTree = "<group>";
+		};
+		C4DCC08D156C022D00C827A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DCC08E156C022D00C827A2 /* sablelaser-Info.plist */,
+				C4DCC08F156C022D00C827A2 /* InfoPlist.strings */,
+				C4DCC092156C022D00C827A2 /* main.m */,
+				C4DCC094156C022D00C827A2 /* sablelaser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4EB0FFB156D3E960000B839 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB0FFD156D3EB30000B839 /* sable.png */,
+				C4EB0FFE156D3EB30000B839 /* fdo_Saber.png */,
+				C4EB0FFF156D3EB30000B839 /* sable@2x.png */,
+				C4EB1000156D3EB30000B839 /* fdo_Saber@2x.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		C4EB1011156D56680000B839 /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB1013156D567D0000B839 /* espadazo1.wav */,
+				C4EB1014156D567D0000B839 /* espadazo2.wav */,
+				C4EB1015156D567D0000B839 /* espadazo3.wav */,
+				C4EB1016156D567D0000B839 /* ltsaberhit15.wav */,
+				C4EB1017156D567D0000B839 /* ltsaberoff01.wav */,
+				C4EB1018156D567D0000B839 /* ltsaberon01.wav */,
+				C4EB1019156D567D0000B839 /* sabhit1.WAV */,
+				C4EB101A156D567D0000B839 /* sabhit2.WAV */,
+				C4EB101B156D567D0000B839 /* sabhit3.WAV */,
+				C4EB101C156D567D0000B839 /* sabramb1.wav */,
+				C4EB101D156D567D0000B839 /* sabrswg1.wav */,
+				C4EB101E156D567D0000B839 /* sabrswg2.wav */,
+				C4EB101F156D567D0000B839 /* sabrswg4.mp3 */,
+				C4EB1020156D567D0000B839 /* sabrswg6.mp3 */,
+			);
+			name = sonidos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DCC081156C022D00C827A2 /* sablelaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DCC0A0156C022D00C827A2 /* Build configuration list for PBXNativeTarget "sablelaser" */;
+			buildPhases = (
+				C4DCC07E156C022D00C827A2 /* Sources */,
+				C4DCC07F156C022D00C827A2 /* Frameworks */,
+				C4DCC080156C022D00C827A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sablelaser;
+			productName = sablelaser;
+			productReference = C4DCC082156C022D00C827A2 /* sablelaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DCC079156C022C00C827A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C4DCC07C156C022C00C827A2 /* Build configuration list for PBXProject "sablelaser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4DCC077156C022C00C827A2;
+			productRefGroup = C4DCC083156C022D00C827A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DCC081156C022D00C827A2 /* sablelaser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DCC080156C022D00C827A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DCC091156C022D00C827A2 /* InfoPlist.strings in Resources */,
+				C4DCC09A156C022D00C827A2 /* MainStoryboard.storyboard in Resources */,
+				C4EB1001156D3EB30000B839 /* sable.png in Resources */,
+				C4EB1002156D3EB30000B839 /* fdo_Saber.png in Resources */,
+				C4EB1003156D3EB30000B839 /* sable@2x.png in Resources */,
+				C4EB1004156D3EB30000B839 /* fdo_Saber@2x.png in Resources */,
+				C4EB1021156D567D0000B839 /* espadazo1.wav in Resources */,
+				C4EB1022156D567D0000B839 /* espadazo2.wav in Resources */,
+				C4EB1023156D567D0000B839 /* espadazo3.wav in Resources */,
+				C4EB1024156D567D0000B839 /* ltsaberhit15.wav in Resources */,
+				C4EB1025156D567D0000B839 /* ltsaberoff01.wav in Resources */,
+				C4EB1026156D567D0000B839 /* ltsaberon01.wav in Resources */,
+				C4EB1027156D567D0000B839 /* sabhit1.WAV in Resources */,
+				C4EB1028156D567D0000B839 /* sabhit2.WAV in Resources */,
+				C4EB1029156D567D0000B839 /* sabhit3.WAV in Resources */,
+				C4EB102A156D567D0000B839 /* sabramb1.wav in Resources */,
+				C4EB102B156D567D0000B839 /* sabrswg1.wav in Resources */,
+				C4EB102C156D567D0000B839 /* sabrswg2.wav in Resources */,
+				C4EB102D156D567D0000B839 /* sabrswg4.mp3 in Resources */,
+				C4EB102E156D567D0000B839 /* sabrswg6.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DCC07E156C022D00C827A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DCC093156C022D00C827A2 /* main.m in Sources */,
+				C4DCC097156C022D00C827A2 /* AppDelegate.m in Sources */,
+				C4DCC09D156C022D00C827A2 /* ViewController.m in Sources */,
+				C45285B2156E8F8000999791 /* SaberSoundsModel.m in Sources */,
+				C49DCE9F156FC40200C0BB82 /* SaberOnViewController.m in Sources */,
+				C49B5FA21570CDBC00F69257 /* SaberOnView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4DCC08F156C022D00C827A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DCC090156C022D00C827A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4DCC098156C022D00C827A2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DCC099156C022D00C827A2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4DCC09E156C022D00C827A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4DCC09F156C022D00C827A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4DCC0A1156C022D00C827A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sablelaser/sablelaser-Prefix.pch";
+				INFOPLIST_FILE = "sablelaser/sablelaser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4DCC0A2156C022D00C827A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sablelaser/sablelaser-Prefix.pch";
+				INFOPLIST_FILE = "sablelaser/sablelaser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DCC07C156C022C00C827A2 /* Build configuration list for PBXProject "sablelaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DCC09E156C022D00C827A2 /* Debug */,
+				C4DCC09F156C022D00C827A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DCC0A0156C022D00C827A2 /* Build configuration list for PBXNativeTarget "sablelaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DCC0A1156C022D00C827A2 /* Debug */,
+				C4DCC0A2156C022D00C827A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DCC079156C022C00C827A2 /* Project object */;
+}
