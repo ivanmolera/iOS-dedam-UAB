@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  SquashApp
+
+  Created by IVAN MOLERA on 26/11/14.
+  Copyright (c) 2014 UAB. All rights reserved.
+*/
+
+"num1" = "number1";
+"num2" = "number2";
+"num3" = "number3";
+"num4" = "number4";
+"num5" = "number5";
+"num6" = "number6";
+"num7" = "number7";
+"num8" = "number8";
+"num9" = "number9";
+"num10" = "number10";
+
+"literal1" = "One";
+"literal2" = "Two";
+"literal3" = "Three";
+"literal4" = "Four";
+"literal5" = "Five";
+"literal6" = "Six";
+"literal7" = "Seven";
+"literal8" = "Eight";
+"literal9" = "Nine";
+"literal10" = "Ten";

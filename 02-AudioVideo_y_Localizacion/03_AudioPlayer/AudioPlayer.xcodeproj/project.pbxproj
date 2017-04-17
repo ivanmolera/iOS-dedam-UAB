@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0325130E1A25C8E1007AC31D /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325130D1A25C8E1007AC31D /* SoundManager.m */; };
+		03CD19A21845F4B700A7B9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19A11845F4B700A7B9AD /* Foundation.framework */; };
+		03CD19A41845F4B700A7B9AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19A31845F4B700A7B9AD /* CoreGraphics.framework */; };
+		03CD19A61845F4B700A7B9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19A51845F4B700A7B9AD /* UIKit.framework */; };
+		03CD19AC1845F4B700A7B9AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19AA1845F4B700A7B9AD /* InfoPlist.strings */; };
+		03CD19AE1845F4B700A7B9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CD19AD1845F4B700A7B9AD /* main.m */; };
+		03CD19B21845F4B700A7B9AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CD19B11845F4B700A7B9AD /* AppDelegate.m */; };
+		03CD19B51845F4B700A7B9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19B31845F4B700A7B9AD /* Main.storyboard */; };
+		03CD19B81845F4B700A7B9AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CD19B71845F4B700A7B9AD /* ViewController.m */; };
+		03CD19BA1845F4B700A7B9AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19B91845F4B700A7B9AD /* Images.xcassets */; };
+		03CD19C11845F4B700A7B9AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19C01845F4B700A7B9AD /* XCTest.framework */; };
+		03CD19C21845F4B700A7B9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19A11845F4B700A7B9AD /* Foundation.framework */; };
+		03CD19C31845F4B700A7B9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19A51845F4B700A7B9AD /* UIKit.framework */; };
+		03CD19CB1845F4B700A7B9AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19C91845F4B700A7B9AD /* InfoPlist.strings */; };
+		03CD19CD1845F4B700A7B9AD /* AudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CD19CC1845F4B700A7B9AD /* AudioPlayerTests.m */; };
+		03CD19D71845F4C900A7B9AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD19D61845F4C900A7B9AD /* AVFoundation.framework */; };
+		03CD19EF1845F4FE00A7B9AD /* number1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19DA1845F4FE00A7B9AD /* number1.wav */; };
+		03CD19F01845F4FE00A7B9AD /* number10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19DB1845F4FE00A7B9AD /* number10.wav */; };
+		03CD19F11845F4FE00A7B9AD /* number2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19DC1845F4FE00A7B9AD /* number2.wav */; };
+		03CD19F21845F4FE00A7B9AD /* number3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19DD1845F4FE00A7B9AD /* number3.wav */; };
+		03CD19F31845F4FE00A7B9AD /* number4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19DE1845F4FE00A7B9AD /* number4.wav */; };
+		03CD19F41845F4FE00A7B9AD /* number5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19DF1845F4FE00A7B9AD /* number5.wav */; };
+		03CD19F51845F4FE00A7B9AD /* number6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E01845F4FE00A7B9AD /* number6.wav */; };
+		03CD19F61845F4FE00A7B9AD /* number7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E11845F4FE00A7B9AD /* number7.wav */; };
+		03CD19F71845F4FE00A7B9AD /* number8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E21845F4FE00A7B9AD /* number8.wav */; };
+		03CD19F81845F4FE00A7B9AD /* number9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E31845F4FE00A7B9AD /* number9.wav */; };
+		03CD19F91845F4FE00A7B9AD /* numero1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E51845F4FE00A7B9AD /* numero1.wav */; };
+		03CD19FA1845F4FE00A7B9AD /* numero10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E61845F4FE00A7B9AD /* numero10.wav */; };
+		03CD19FB1845F4FE00A7B9AD /* numero2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E71845F4FE00A7B9AD /* numero2.wav */; };
+		03CD19FC1845F4FE00A7B9AD /* numero3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E81845F4FE00A7B9AD /* numero3.wav */; };
+		03CD19FD1845F4FE00A7B9AD /* numero4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19E91845F4FE00A7B9AD /* numero4.wav */; };
+		03CD19FE1845F4FE00A7B9AD /* numero5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19EA1845F4FE00A7B9AD /* numero5.wav */; };
+		03CD19FF1845F4FE00A7B9AD /* numero6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19EB1845F4FE00A7B9AD /* numero6.wav */; };
+		03CD1A001845F4FE00A7B9AD /* numero7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19EC1845F4FE00A7B9AD /* numero7.wav */; };
+		03CD1A011845F4FE00A7B9AD /* numero8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19ED1845F4FE00A7B9AD /* numero8.wav */; };
+		03CD1A021845F4FE00A7B9AD /* numero9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03CD19EE1845F4FE00A7B9AD /* numero9.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03CD19C41845F4B700A7B9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CD19961845F4B700A7B9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CD199D1845F4B700A7B9AD;
+			remoteInfo = AudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0325130C1A25C8E1007AC31D /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		0325130D1A25C8E1007AC31D /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		03CD199E1845F4B700A7B9AD /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CD19A11845F4B700A7B9AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03CD19A31845F4B700A7B9AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03CD19A51845F4B700A7B9AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03CD19A91845F4B700A7B9AD /* AudioPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayer-Info.plist"; sourceTree = "<group>"; };
+		03CD19AB1845F4B700A7B9AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03CD19AD1845F4B700A7B9AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03CD19AF1845F4B700A7B9AD /* AudioPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		03CD19B01845F4B700A7B9AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03CD19B11845F4B700A7B9AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03CD19B41845F4B700A7B9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03CD19B61845F4B700A7B9AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03CD19B71845F4B700A7B9AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03CD19B91845F4B700A7B9AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03CD19BF1845F4B700A7B9AD /* AudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CD19C01845F4B700A7B9AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03CD19C81845F4B700A7B9AD /* AudioPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		03CD19CA1845F4B700A7B9AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03CD19CC1845F4B700A7B9AD /* AudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerTests.m; sourceTree = "<group>"; };
+		03CD19D61845F4C900A7B9AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		03CD19DA1845F4FE00A7B9AD /* number1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number1.wav; sourceTree = "<group>"; };
+		03CD19DB1845F4FE00A7B9AD /* number10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number10.wav; sourceTree = "<group>"; };
+		03CD19DC1845F4FE00A7B9AD /* number2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number2.wav; sourceTree = "<group>"; };
+		03CD19DD1845F4FE00A7B9AD /* number3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number3.wav; sourceTree = "<group>"; };
+		03CD19DE1845F4FE00A7B9AD /* number4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number4.wav; sourceTree = "<group>"; };
+		03CD19DF1845F4FE00A7B9AD /* number5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number5.wav; sourceTree = "<group>"; };
+		03CD19E01845F4FE00A7B9AD /* number6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number6.wav; sourceTree = "<group>"; };
+		03CD19E11845F4FE00A7B9AD /* number7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number7.wav; sourceTree = "<group>"; };
+		03CD19E21845F4FE00A7B9AD /* number8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number8.wav; sourceTree = "<group>"; };
+		03CD19E31845F4FE00A7B9AD /* number9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = number9.wav; sourceTree = "<group>"; };
+		03CD19E51845F4FE00A7B9AD /* numero1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero1.wav; sourceTree = "<group>"; };
+		03CD19E61845F4FE00A7B9AD /* numero10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero10.wav; sourceTree = "<group>"; };
+		03CD19E71845F4FE00A7B9AD /* numero2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero2.wav; sourceTree = "<group>"; };
+		03CD19E81845F4FE00A7B9AD /* numero3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero3.wav; sourceTree = "<group>"; };
+		03CD19E91845F4FE00A7B9AD /* numero4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero4.wav; sourceTree = "<group>"; };
+		03CD19EA1845F4FE00A7B9AD /* numero5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero5.wav; sourceTree = "<group>"; };
+		03CD19EB1845F4FE00A7B9AD /* numero6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero6.wav; sourceTree = "<group>"; };
+		03CD19EC1845F4FE00A7B9AD /* numero7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero7.wav; sourceTree = "<group>"; };
+		03CD19ED1845F4FE00A7B9AD /* numero8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero8.wav; sourceTree = "<group>"; };
+		03CD19EE1845F4FE00A7B9AD /* numero9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numero9.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CD199B1845F4B700A7B9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD19D71845F4C900A7B9AD /* AVFoundation.framework in Frameworks */,
+				03CD19A41845F4B700A7B9AD /* CoreGraphics.framework in Frameworks */,
+				03CD19A61845F4B700A7B9AD /* UIKit.framework in Frameworks */,
+				03CD19A21845F4B700A7B9AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CD19BC1845F4B700A7B9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD19C11845F4B700A7B9AD /* XCTest.framework in Frameworks */,
+				03CD19C31845F4B700A7B9AD /* UIKit.framework in Frameworks */,
+				03CD19C21845F4B700A7B9AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0325130B1A25C8E1007AC31D /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				0325130C1A25C8E1007AC31D /* SoundManager.h */,
+				0325130D1A25C8E1007AC31D /* SoundManager.m */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
+		03CD19951845F4B700A7B9AD = {
+			isa = PBXGroup;
+			children = (
+				03CD19A71845F4B700A7B9AD /* AudioPlayer */,
+				03CD19C61845F4B700A7B9AD /* AudioPlayerTests */,
+				03CD19A01845F4B700A7B9AD /* Frameworks */,
+				03CD199F1845F4B700A7B9AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CD199F1845F4B700A7B9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CD199E1845F4B700A7B9AD /* AudioPlayer.app */,
+				03CD19BF1845F4B700A7B9AD /* AudioPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CD19A01845F4B700A7B9AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19D61845F4C900A7B9AD /* AVFoundation.framework */,
+				03CD19A11845F4B700A7B9AD /* Foundation.framework */,
+				03CD19A31845F4B700A7B9AD /* CoreGraphics.framework */,
+				03CD19A51845F4B700A7B9AD /* UIKit.framework */,
+				03CD19C01845F4B700A7B9AD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03CD19A71845F4B700A7B9AD /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0325130B1A25C8E1007AC31D /* SoundManager */,
+				03CD19B01845F4B700A7B9AD /* AppDelegate.h */,
+				03CD19B11845F4B700A7B9AD /* AppDelegate.m */,
+				03CD19B31845F4B700A7B9AD /* Main.storyboard */,
+				03CD19B61845F4B700A7B9AD /* ViewController.h */,
+				03CD19B71845F4B700A7B9AD /* ViewController.m */,
+				03CD19B91845F4B700A7B9AD /* Images.xcassets */,
+				03CD19A81845F4B700A7B9AD /* Supporting Files */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		03CD19A81845F4B700A7B9AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19D81845F4FE00A7B9AD /* numbers */,
+				03CD19A91845F4B700A7B9AD /* AudioPlayer-Info.plist */,
+				03CD19AA1845F4B700A7B9AD /* InfoPlist.strings */,
+				03CD19AD1845F4B700A7B9AD /* main.m */,
+				03CD19AF1845F4B700A7B9AD /* AudioPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03CD19C61845F4B700A7B9AD /* AudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19CC1845F4B700A7B9AD /* AudioPlayerTests.m */,
+				03CD19C71845F4B700A7B9AD /* Supporting Files */,
+			);
+			path = AudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		03CD19C71845F4B700A7B9AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19C81845F4B700A7B9AD /* AudioPlayerTests-Info.plist */,
+				03CD19C91845F4B700A7B9AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03CD19D81845F4FE00A7B9AD /* numbers */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19D91845F4FE00A7B9AD /* en */,
+				03CD19E41845F4FE00A7B9AD /* es */,
+			);
+			path = numbers;
+			sourceTree = "<group>";
+		};
+		03CD19D91845F4FE00A7B9AD /* en */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19DA1845F4FE00A7B9AD /* number1.wav */,
+				03CD19DB1845F4FE00A7B9AD /* number10.wav */,
+				03CD19DC1845F4FE00A7B9AD /* number2.wav */,
+				03CD19DD1845F4FE00A7B9AD /* number3.wav */,
+				03CD19DE1845F4FE00A7B9AD /* number4.wav */,
+				03CD19DF1845F4FE00A7B9AD /* number5.wav */,
+				03CD19E01845F4FE00A7B9AD /* number6.wav */,
+				03CD19E11845F4FE00A7B9AD /* number7.wav */,
+				03CD19E21845F4FE00A7B9AD /* number8.wav */,
+				03CD19E31845F4FE00A7B9AD /* number9.wav */,
+			);
+			path = en;
+			sourceTree = "<group>";
+		};
+		03CD19E41845F4FE00A7B9AD /* es */ = {
+			isa = PBXGroup;
+			children = (
+				03CD19E51845F4FE00A7B9AD /* numero1.wav */,
+				03CD19E61845F4FE00A7B9AD /* numero10.wav */,
+				03CD19E71845F4FE00A7B9AD /* numero2.wav */,
+				03CD19E81845F4FE00A7B9AD /* numero3.wav */,
+				03CD19E91845F4FE00A7B9AD /* numero4.wav */,
+				03CD19EA1845F4FE00A7B9AD /* numero5.wav */,
+				03CD19EB1845F4FE00A7B9AD /* numero6.wav */,
+				03CD19EC1845F4FE00A7B9AD /* numero7.wav */,
+				03CD19ED1845F4FE00A7B9AD /* numero8.wav */,
+				03CD19EE1845F4FE00A7B9AD /* numero9.wav */,
+			);
+			path = es;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CD199D1845F4B700A7B9AD /* AudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CD19D01845F4B700A7B9AD /* Build configuration list for PBXNativeTarget "AudioPlayer" */;
+			buildPhases = (
+				03CD199A1845F4B700A7B9AD /* Sources */,
+				03CD199B1845F4B700A7B9AD /* Frameworks */,
+				03CD199C1845F4B700A7B9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayer;
+			productName = AudioPlayer;
+			productReference = 03CD199E1845F4B700A7B9AD /* AudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03CD19BE1845F4B700A7B9AD /* AudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CD19D31845F4B700A7B9AD /* Build configuration list for PBXNativeTarget "AudioPlayerTests" */;
+			buildPhases = (
+				03CD19BB1845F4B700A7B9AD /* Sources */,
+				03CD19BC1845F4B700A7B9AD /* Frameworks */,
+				03CD19BD1845F4B700A7B9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CD19C51845F4B700A7B9AD /* PBXTargetDependency */,
+			);
+			name = AudioPlayerTests;
+			productName = AudioPlayerTests;
+			productReference = 03CD19BF1845F4B700A7B9AD /* AudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CD19961845F4B700A7B9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = UAB;
+				TargetAttributes = {
+					03CD19BE1845F4B700A7B9AD = {
+						TestTargetID = 03CD199D1845F4B700A7B9AD;
+					};
+				};
+			};
+			buildConfigurationList = 03CD19991845F4B700A7B9AD /* Build configuration list for PBXProject "AudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CD19951845F4B700A7B9AD;
+			productRefGroup = 03CD199F1845F4B700A7B9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CD199D1845F4B700A7B9AD /* AudioPlayer */,
+				03CD19BE1845F4B700A7B9AD /* AudioPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CD199C1845F4B700A7B9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD1A021845F4FE00A7B9AD /* numero9.wav in Resources */,
+				03CD19BA1845F4B700A7B9AD /* Images.xcassets in Resources */,
+				03CD19EF1845F4FE00A7B9AD /* number1.wav in Resources */,
+				03CD19F61845F4FE00A7B9AD /* number7.wav in Resources */,
+				03CD19F11845F4FE00A7B9AD /* number2.wav in Resources */,
+				03CD19F21845F4FE00A7B9AD /* number3.wav in Resources */,
+				03CD19FC1845F4FE00A7B9AD /* numero3.wav in Resources */,
+				03CD19FE1845F4FE00A7B9AD /* numero5.wav in Resources */,
+				03CD1A001845F4FE00A7B9AD /* numero7.wav in Resources */,
+				03CD19FF1845F4FE00A7B9AD /* numero6.wav in Resources */,
+				03CD19F51845F4FE00A7B9AD /* number6.wav in Resources */,
+				03CD19FD1845F4FE00A7B9AD /* numero4.wav in Resources */,
+				03CD19F31845F4FE00A7B9AD /* number4.wav in Resources */,
+				03CD19FA1845F4FE00A7B9AD /* numero10.wav in Resources */,
+				03CD19F41845F4FE00A7B9AD /* number5.wav in Resources */,
+				03CD19F71845F4FE00A7B9AD /* number8.wav in Resources */,
+				03CD19AC1845F4B700A7B9AD /* InfoPlist.strings in Resources */,
+				03CD19F91845F4FE00A7B9AD /* numero1.wav in Resources */,
+				03CD1A011845F4FE00A7B9AD /* numero8.wav in Resources */,
+				03CD19B51845F4B700A7B9AD /* Main.storyboard in Resources */,
+				03CD19F01845F4FE00A7B9AD /* number10.wav in Resources */,
+				03CD19F81845F4FE00A7B9AD /* number9.wav in Resources */,
+				03CD19FB1845F4FE00A7B9AD /* numero2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CD19BD1845F4B700A7B9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD19CB1845F4B700A7B9AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CD199A1845F4B700A7B9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD19B81845F4B700A7B9AD /* ViewController.m in Sources */,
+				0325130E1A25C8E1007AC31D /* SoundManager.m in Sources */,
+				03CD19B21845F4B700A7B9AD /* AppDelegate.m in Sources */,
+				03CD19AE1845F4B700A7B9AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CD19BB1845F4B700A7B9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CD19CD1845F4B700A7B9AD /* AudioPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CD19C51845F4B700A7B9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CD199D1845F4B700A7B9AD /* AudioPlayer */;
+			targetProxy = 03CD19C41845F4B700A7B9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03CD19AA1845F4B700A7B9AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CD19AB1845F4B700A7B9AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03CD19B31845F4B700A7B9AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CD19B41845F4B700A7B9AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03CD19C91845F4B700A7B9AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CD19CA1845F4B700A7B9AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CD19CE1845F4B700A7B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03CD19CF1845F4B700A7B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CD19D11845F4B700A7B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayer/AudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayer/AudioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03CD19D21845F4B700A7B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayer/AudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayer/AudioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03CD19D41845F4B700A7B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioPlayer.app/AudioPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayer/AudioPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioPlayerTests/AudioPlayerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03CD19D51845F4B700A7B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioPlayer.app/AudioPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayer/AudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayerTests/AudioPlayerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.uab.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CD19991845F4B700A7B9AD /* Build configuration list for PBXProject "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CD19CE1845F4B700A7B9AD /* Debug */,
+				03CD19CF1845F4B700A7B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CD19D01845F4B700A7B9AD /* Build configuration list for PBXNativeTarget "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CD19D11845F4B700A7B9AD /* Debug */,
+				03CD19D21845F4B700A7B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CD19D31845F4B700A7B9AD /* Build configuration list for PBXNativeTarget "AudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CD19D41845F4B700A7B9AD /* Debug */,
+				03CD19D51845F4B700A7B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CD19961845F4B700A7B9AD /* Project object */;
+}

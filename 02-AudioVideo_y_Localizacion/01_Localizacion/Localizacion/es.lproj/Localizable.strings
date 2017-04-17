@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Localizacion
+
+  Created by IVAN MOLERA on 16/11/13.
+  Copyright (c) 2013 UAB. All rights reserved.
+*/
+
+"bandera" = "es";
+"gracias" = "Gracias!";
+"mensaje" = "Mensaje";
+"numero1" = "numero1";
